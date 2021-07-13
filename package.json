@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^3.9.0",
+    "gatsby-image": "^3.9.0",
     "gatsby-plugin-gatsby-cloud": "^2.9.0",
     "gatsby-plugin-google-analytics": "^3.9.0",
     "gatsby-plugin-image": "^1.9.0",
@@ -30,6 +31,8 @@
     "react-dom": "^17.0.1",
     "react-flexbox-grid": "^2.1.2",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "sass": "^1.35.2"
   }

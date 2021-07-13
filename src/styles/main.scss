@@ -1,9 +1,42 @@
 @import 'variables';
+@import 'mixins';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+@import 'nav';
+@import 'sidemenu';
+@import 'footer';
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  color: $dark-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Titillium', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@include for-phone-only {
+  .container {
+    padding: 1em;
+  }
 }

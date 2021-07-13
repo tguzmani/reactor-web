@@ -5,11 +5,12 @@ const MiniAbout = () => {
     <div>
       <h1>Mini About</h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quidem
-        vitae pariatur aut provident tempora amet mollitia, sit illo error
-        voluptates praesentium alias modi autem eveniet reiciendis dolore nam,
-        cupiditate sequi laboriosam ipsa vero expedita et? Explicabo quaerat
-        eius obcaecati.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit
+        iure veritatis vitae tempore qui reiciendis ea illo eveniet eos? Fugit
+        eius voluptatibus explicabo vitae totam dolorem fugiat. Nihil magnam
+        sint inventore ullam nobis cupiditate, amet sed expedita perferendis
+        accusamus nemo veritatis repellendus, quas dolor! Repellendus doloremque
+        soluta aliquam aut consequatur!
       </p>
     </div>
   )

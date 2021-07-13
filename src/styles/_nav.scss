@@ -1,0 +1,49 @@
+@import 'mixins';
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav .nav-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4em;
+}
+
+nav .links a {
+  padding: 0 1rem;
+}
+
+nav .header {
+  display: flex;
+  align-items: center;
+
+  .logo {
+    margin: 1rem;
+  }
+
+  .lean {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-family: 'Titillium', sans-serif;
+    letter-spacing: 0.25ch;
+  }
+}
+
+@include for-phone-only {
+  nav .header {
+    h1 {
+      font-size: 1.25rem;
+    }
+
+    .logo {
+      width: 2rem;
+    }
+  }
+}
