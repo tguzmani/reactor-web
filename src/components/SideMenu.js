@@ -13,7 +13,13 @@ const SideMenu = () => {
   return (
     <div id='side-menu'>
       {show && (
-        <div className='panel' onClick={toggleShow}>
+        <div
+          className='panel'
+          role='button'
+          tabIndex={0}
+          onClick={toggleShow}
+          onKeyDown={toggleShow}
+        >
           <Link to='/'>Home</Link>
           <Link to='/services'>Services</Link>
           <Link to='/portfolio'>Portfolio</Link>

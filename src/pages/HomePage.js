@@ -10,7 +10,7 @@ const Home = () => {
       <Hero />
       <MiniAbout />
       <Services />
-      <OurWork />
+      {/* <OurWork /> */}
     </>
   )
 }

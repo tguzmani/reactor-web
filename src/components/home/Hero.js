@@ -2,14 +2,18 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
-      <h1>Hero</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aperiam
-        inventore ducimus mollitia sapiente, odio in, nulla consequuntur
-        distinctio veniam autem, perferendis laborum officia exercitationem
-        dolorem dolor eveniet neque labore.
-      </p>
+    <div id='hero'>
+      <div className='container'>
+        <div className='header'>
+          <h1>Páginas Web para aumentar tus ventas</h1>
+        </div>
+        <div className='flex-grow'></div>
+        <div className='lead'>
+          Somos diseñadores y especialistas en páginas web. Te ayudamos a
+          aumentar tus ventas, reducir costos y conseguir más clientes
+          utilizando métodos comprobados
+        </div>
+      </div>
     </div>
   )
 }

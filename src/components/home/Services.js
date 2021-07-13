@@ -1,17 +1,25 @@
 import React from 'react'
+import ServiceItem from './ServiceItem'
 
 const Services = () => {
   return (
-    <>
-      <h1>Services</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nulla
-        illo atque? Illo fugit, beatae voluptatum perspiciatis molestias
-        asperiores, nostrum amet repellat alias perferendis porro quibusdam
-        error blanditiis repudiandae eos aperiam quae distinctio laborum dicta
-        necessitatibus ab soluta pariatur? Magni.
-      </p>
-    </>
+    <div id='services'>
+      <div className='container'>
+        <ServiceItem title='Landing Page'>
+          Preséntate ante tu público de una forma profesional y aumenta tus
+          ventas
+        </ServiceItem>
+
+        <ServiceItem title='Ecommerce'>
+          Automatiza y gestiona tus ventas con una herramienta de Ecommerce
+        </ServiceItem>
+
+        <ServiceItem title='Aplicaciones a la talla'>
+          ¿Necesitas algo muy específico? Desarrollamos aplicaciones a la talla,
+          según tus necesidades
+        </ServiceItem>
+      </div>
+    </div>
   )
 }
 
