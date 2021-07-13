@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { BiMenu, BiX } from 'react-icons/bi'
-import { Link } from 'react-router-dom'
+import { Link } from 'gatsby'
 
 const SideMenu = () => {
   const [show, setShow] = React.useState(false)

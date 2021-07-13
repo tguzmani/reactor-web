@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import useResponsive from '../hooks/useResponsive'
 import SideMenu from './SideMenu'
