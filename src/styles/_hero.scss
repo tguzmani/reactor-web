@@ -85,7 +85,8 @@
 
 @include for-phone-only {
   #hero .container,
-  #mini-about .container {
+  #mini-about .container,
+  #services .container {
     display: flex;
     flex-direction: column;
     align-items: center;
