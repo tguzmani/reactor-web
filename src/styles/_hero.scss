@@ -6,7 +6,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
+    min-height: 80vh;
+    overflow: auto;
   }
 
   h1 {
@@ -19,7 +20,7 @@
   }
 
   .lead {
-    padding-top: 1em;
+    padding: 1em 0;
     font-size: 1.75em;
     max-width: 400px;
     line-height: 2.5ch;
@@ -27,7 +28,7 @@
 }
 
 #mini-about {
-  background-color: darkblue;
+  background-color: $primary-color;
 
   * {
     color: $light-color;
@@ -37,7 +38,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    min-height: 50vh;
+    overflow: auto;
   }
 
   h1 {
@@ -50,7 +52,7 @@
   }
 
   .lead {
-    padding-top: 1em;
+    padding: 1em 0;
     font-size: 1.25em;
     max-width: 400px;
     line-height: 2.5ch;
@@ -68,7 +70,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    min-height: 50vh;
+    overflow: auto;
   }
 
   .service {
@@ -90,5 +93,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #hero {
+    h1 {
+      line-height: 2ch;
+    }
   }
 }

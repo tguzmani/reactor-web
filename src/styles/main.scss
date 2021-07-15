@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+
 @import 'variables';
+@import 'utilities';
 @import 'mixins';
 
 @import 'nav';
@@ -36,6 +38,15 @@ h6 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+[data-aos] {
+  pointer-events: none;
+  transform-style: preserve-3d;
+
+  &.aos-animate {
+    pointer-events: auto;
+  }
 }
 
 @include for-phone-only {

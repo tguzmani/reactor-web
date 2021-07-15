@@ -1,5 +1,7 @@
-import React from 'react'
 import '../styles/main.scss'
+import 'aos/dist/aos.css'
+
+import React from 'react'
 import { Router } from '@reach/router'
 
 import Navigation from './../components/Navigation'
@@ -11,8 +13,11 @@ import Services from './ServicesPage'
 import ContactUs from './ContactUsPage'
 import NotFoundPage from './404'
 import Footer from '../components/Footer'
+import useAOS from './../hooks/useAOS'
 
 const IndexPage = () => {
+  useAOS()
+
   return (
     <>
       <Navigation />

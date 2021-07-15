@@ -9,7 +9,7 @@
   height: 100vh;
   padding: 4em 2em;
   background-color: white;
-  z-index: 1;
+  z-index: 2;
 
   a {
     text-decoration: none;
@@ -20,7 +20,7 @@
 
 #side-menu .menu-icon {
   padding: 1em;
-  z-index: 2;
+  z-index: 3;
   position: fixed;
   top: 0;
   right: 0;

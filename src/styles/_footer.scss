@@ -2,7 +2,7 @@
 @import 'mixins';
 
 footer {
-  background-color: $dark-color;
+  background-color: $darker-color;
 
   width: 100%;
   min-height: 5em;
@@ -25,13 +25,19 @@ footer {
   .links {
     display: flex;
     flex-direction: column;
+
+    * {
+      margin-bottom: 0.75rem;
+    }
   }
 }
 
 @include for-phone-only {
-  footer .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  footer {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }

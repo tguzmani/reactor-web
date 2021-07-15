@@ -24,7 +24,6 @@ const SideMenu = () => {
           <Link to='/services'>Services</Link>
           <Link to='/portfolio'>Portfolio</Link>
           <Link to='/about-us'>About Us</Link>
-          <Link to='/contact-us'>Contact Us</Link>
         </div>
       )}
 
